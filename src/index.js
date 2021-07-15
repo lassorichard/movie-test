@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './scss/main.scss';
+import { RoutePage } from './pages/routePage';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <RoutePage />
   </React.StrictMode>,
   document.getElementById('root')
 );
