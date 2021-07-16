@@ -1,0 +1,70 @@
+.heroSlider{
+    // min-height: 375px;
+    position: relative;
+    
+    &__img {
+        height: 595px;
+        width: 100%;
+        object-fit: cover;
+        object-position: left;
+    }
+    &__overlay{
+        background: rgba($cb, .6);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    &__description {
+        position: absolute;
+        bottom: 88px;
+        left: 0;
+        display: inline;
+        font-size: 30px;
+        font-weight: 600;
+        padding: 0 20px;
+        line-height: 48px;
+
+        @include md {
+            top: 50%;
+            transform: translateY(-50%);
+            left: 10%;
+            max-width: 726px;
+            font-size: 40px;
+            margin: 0 auto;
+            line-height: 56px;
+        }
+
+        @include lg {
+            left: 15%;
+        }
+        
+        span {
+            background: $cw;
+        }
+    }
+}
+
+.slick-dots li.slick-active button:before {
+    color: $cp1 !important;
+    border: 2px solid $cp1;
+    border-radius: 50%;
+}
+
+.slick-dots li button:before {
+    font-size: 16px !important;
+    height: 22px !important;
+    width: 22px !important;
+    color: $cw !important;
+    opacity: 1 !important;
+}
+
+.slick-dots {
+    bottom: 37px !important;
+
+    @include md {
+        width: initial !important;
+        right: 50px !important;
+    }
+}
