@@ -33,17 +33,15 @@ export const HeroSlider = () => {
                     {heroes.map( (hero) => {
 
                         return(
-                            <div>
-                                <figure className="heroSlider">
-                                    <img className="heroSlider__img" src={hero.picture} alt="" />
-                                    <div className="heroSlider__overlay"></div>
-                                    <figcaption className="heroSlider__description">
-                                        <span>
-                                            {hero.description}
-                                        </span>
-                                    </figcaption>
-                                </figure>
-                            </div>
+                            <figure key={hero.id} className="heroSlider">
+                                <img className="heroSlider__img" src={hero.picture} alt="" />
+                                <div className="heroSlider__overlay"></div>
+                                <figcaption className="heroSlider__description">
+                                    <span>
+                                        {hero.description}
+                                    </span>
+                                </figcaption>
+                            </figure>
                         )
                     })}
                 </Slider>

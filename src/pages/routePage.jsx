@@ -6,6 +6,7 @@ import {
 import { Home } from './home';
 import { Categories } from './categories';
 import { MyFavorites } from './myFavorites';
+import { FilmIntern } from '../components/filmIntern';
 
 export const RoutePage = () => {
     return (
@@ -20,6 +21,9 @@ export const RoutePage = () => {
           </Route>
           <Route  path="/my-favorites">
             <MyFavorites />
+          </Route>
+          <Route  exact path="/film/:id">
+            <FilmIntern />
           </Route>
 
         </Switch>

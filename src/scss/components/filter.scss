@@ -1,0 +1,19 @@
+.filter {
+    display: flex;
+    font-weight: 800;
+    overflow-x: scroll;
+    white-space: nowrap;
+    height: 40px;
+    margin-top: 55px;
+
+    @include md {
+        padding-left: 50px;
+    }
+
+    &__item {
+        cursor: pointer;
+        &:not(:last-child) {
+            padding-right: 25px;
+        }
+    }
+}

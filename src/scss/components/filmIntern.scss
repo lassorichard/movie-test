@@ -1,0 +1,31 @@
+.intern {
+    background: $cp1;
+    background: linear-gradient(180deg, rgba($cp1,1) 25%, rgba($cw,1) 100%);
+    padding: 40px 0;
+    &__container {
+        
+    }
+
+    &__img {
+        max-width: 231px;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    &__info {
+
+        &__title {
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: 700;
+            font-size: 24px;
+        }
+        &__description {
+            padding-bottom: 40px;
+        }
+        
+        .btn {
+            margin: 0 auto;
+        }
+    }
+}

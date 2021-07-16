@@ -6,9 +6,12 @@
 @import 'general/fonts';
 @import 'general/variables';
 @import 'general/mixins';
+@import 'general/buttons';
 
 // Components
 
 @import 'components/navBar';
 @import 'components/heroSlider';
 @import 'components/filter';
+@import 'components/layout';
+@import 'components/filmIntern';
