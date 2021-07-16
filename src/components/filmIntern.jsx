@@ -16,10 +16,12 @@ export const FilmIntern = () => {
                         <p className="intern__info__description">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt repudiandae delectus, sint ex numquam non ad quod iusto inventore nesciunt voluptates provident. Aut, nostrum quod! Enim asperiores soluta hic corrupti!
                         </p>
-                        <button className="btn btn--tertiary">
-                            <img src={StarIcon} alt="Star icon" />
-                            Agregar a Favoritos
-                        </button>
+                        <div className="intern__info__btn">
+                            <button className="btn btn--tertiary">
+                                <img src={StarIcon} alt="Star icon" />
+                                Agregar a Favoritos
+                            </button>
+                        </div>
                     </div>
                 </div>
             </section>
