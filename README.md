@@ -51,3 +51,9 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
     5. Filter options are changed depending on the category of each film
     6. Hover on movie card rendering the movie detail
 
+### Relevant information from project
+
+    1. For this test is used the library React JS for the front end web develop
+    2. For styles I used the BEM methodology and SASS as a preprocessor
+    3. Semantic HTML
+    4. For the Slider I used the library slick-carousel for React
