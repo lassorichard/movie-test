@@ -1,13 +1,12 @@
 # Movie Test
 
-Front end develope for Bavaria test
-
+Bavaria Test
 
 > Este proyecto es desarrollado por [Richard Lasso Ledesma]
 
-### Deployment
+## Deployment
 
-This section has moved here: [https://heuristic-joliot-08f8fc.netlify.app](https://heuristic-joliot-08f8fc.netlify.app)
+You can see the deploy in this website: [https://heuristic-joliot-08f8fc.netlify.app](https://heuristic-joliot-08f8fc.netlify.app)
 ## Available Scripts
 
 In the project directory, you can run:
