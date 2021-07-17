@@ -4,36 +4,36 @@
     
     &__img {
         height: 595px;
-        width: 100%;
         object-fit: cover;
         object-position: left;
+        width: 100%;
     }
     &__overlay{
         background: rgba($cb, .6);
-        position: absolute;
-        top: 0;
         bottom: 0;
         left: 0;
+        position: absolute;
         right: 0;
+        top: 0;
     }
     &__description {
-        position: absolute;
         bottom: 88px;
-        left: 0;
         display: inline;
         font-size: 30px;
         font-weight: 600;
-        padding: 0 20px;
+        left: 0;
         line-height: 48px;
+        padding: 0 20px;
+        position: absolute;
 
         @include md {
+            font-size: 40px;
+            left: 10%;
+            line-height: 56px;
+            margin: 0 auto;
+            max-width: 726px;
             top: 50%;
             transform: translateY(-50%);
-            left: 10%;
-            max-width: 726px;
-            font-size: 40px;
-            margin: 0 auto;
-            line-height: 56px;
         }
 
         @include lg {
@@ -47,24 +47,24 @@
 }
 
 .slick-dots li.slick-active button:before {
-    color: $cp1 !important;
-    border: 2px solid $cp1;
     border-radius: 50%;
+    border: 2px solid $cp1;
+    color: $cp1 !important;
 }
 
 .slick-dots li button:before {
+    color: $cw !important;
     font-size: 16px !important;
     height: 22px !important;
-    width: 22px !important;
-    color: $cw !important;
     opacity: 1 !important;
+    width: 22px !important;
 }
 
 .slick-dots {
     bottom: 37px !important;
 
     @include md {
-        width: initial !important;
         right: 50px !important;
+        width: initial !important;
     }
 }

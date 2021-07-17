@@ -1,13 +1,13 @@
 .btn {
     background: none;
-    width: 100%;
-    max-width: 200px;
-    padding: 10px 5px;
     border: none;
+    cursor: pointer;
     font-size: 12px;
     font-weight: 800;
-    cursor: pointer;
+    max-width: 200px;
+    padding: 10px 5px;
     transition: $transition;
+    width: 100%;
 
     &:hover {
         opacity: .8;
@@ -22,15 +22,15 @@
         color: $cw;
     }
     &--tertiary {
+        align-items: center;
         background: $cp2;
         color: $cw;
         display: flex;
         justify-content: center;
-        align-items: center;
 
         img {
-            max-width: 20px;
             margin-right: 6px;
+            max-width: 20px;
         }
     }
 }

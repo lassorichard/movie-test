@@ -1,34 +1,36 @@
 .filter {
     display: flex;
     font-weight: 800;
-    overflow-x: scroll;
-    white-space: nowrap;
     height: 40px;
     margin-top: 55px;
+    overflow-x: scroll;
+    white-space: nowrap;
 
     @include md {
         padding-left: 50px;
     }
 
     &__item {
-        cursor: pointer;
         color: $cb;
-        text-decoration: none;
+        cursor: pointer;
         margin-right: 25px;
+        text-decoration: none;
     }
 
     &--active {
+        border-bottom: 2px solid $cb;
+        height: 25px;
         position: relative;
         &::after {
+            border-left: 4px solid transparent;
+            border-right: 4px solid transparent;
+            border-top: 4px solid $cb;
+            bottom: -6px;
             content: "";
-            position: absolute;
             left: 50%;
+            position: absolute;
             transform: translateX(-50%);
             width: 0;
-            bottom: 16px;
-            border-left: 5px solid transparent;
-            border-right: 5px solid transparent;
-            border-top: 5px solid $cb;
         }
     }
 }

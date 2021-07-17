@@ -1,7 +1,7 @@
 .layout {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
     margin-bottom: 40px;
 
     @include sm {
@@ -15,18 +15,18 @@
         position: relative;
     }
     &__figcaption {
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        bottom: 3px;
-        right: 0px;
+        align-items: center;
         background: rgba($cb, .8);
+        bottom: 3px;
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
-        padding: 10px;
+        left: 0px;
         opacity: 0;
+        padding: 10px;
+        position: absolute;
+        right: 0px;
+        top: 0px;
         transition: $transition;
         &:hover {
             opacity: 1;
@@ -34,13 +34,8 @@
 
         &__title {
             color: $cw;
-            text-transform: uppercase;
-            padding-bottom: 40px;
             text-align: center;
-        }
-
-        .btn {
-            margin-bottom: 10px;
+            text-transform: uppercase;
         }
     }
 }
