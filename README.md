@@ -5,6 +5,9 @@ Front end develope for Bavaria test
 
 > Este proyecto es desarrollado por [Richard Lasso Ledesma]
 
+### Deployment
+
+This section has moved here: [https://heuristic-joliot-08f8fc.netlify.app](https://heuristic-joliot-08f8fc.netlify.app)
 ## Available Scripts
 
 In the project directory, you can run:
@@ -48,11 +51,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
     5. Filter options are changed depending on the category of each film
     6. Hover on movie card rendering the movie detail
 
-### Deployment
-
-This section has moved here: [https://lassorichard.github.io/movie-test/](https://lassorichard.github.io/movie-test/)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# movie-test
