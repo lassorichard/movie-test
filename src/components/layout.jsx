@@ -1,11 +1,22 @@
-// import { Filter } from '../components/filter'
-// import { FilmsCard } from '../components/filmsCard'
-import Films from "../data/films.json";
 import { Link } from 'react-router-dom';
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 export const Layout = () => {
-    const [filter, setFilter] = useState('All')
+    const [filter, setFilter] = useState('All');
+    const [films, setFilms] = useState([]);
+
+
+    useEffect(()=> {
+        getFilms()
+        function getFilms(){
+            axios.get('films.json')
+            .then(result => {
+                const resultData = result.data
+                return setFilms(resultData)
+            }).catch(console.log)
+        }
+    }, [])
 
     function getFilter(e) {
         setFilter(e.target.textContent)
@@ -35,8 +46,9 @@ export const Layout = () => {
                 <li className="filter__item" onClick={getFilter}>Recomendations</li>
             </ul>
             <section className="layout container">
+            
                 {
-                Films.map( (film) => {
+                films.map( (film) => {
 
                     if(filter === 'All') {
                         return (

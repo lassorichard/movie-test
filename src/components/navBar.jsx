@@ -1,4 +1,3 @@
-
 import logo from '../img/logo.svg'
 import menuMobile from '../img/menu-mobile.svg'
 import closeMobile from '../img/close.svg'
