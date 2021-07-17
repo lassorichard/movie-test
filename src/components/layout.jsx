@@ -73,7 +73,9 @@ export const Layout = () => {
                             </figure>
                         )
                     }
-                })}
+                    return null
+                }
+                )}
             </section>
         </>
     )
