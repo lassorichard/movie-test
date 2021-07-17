@@ -17,7 +17,7 @@
         margin: 0 auto;
 
         @include md {
-            max-width: 330px;
+            min-width: 330px;
         }
     }
 

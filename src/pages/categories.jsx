@@ -5,7 +5,6 @@ export const Categories = () => {
     <>
       <NavBar />
       <h1>Categories</h1>
-      <h1>hola</h1>
     </>
   );
 }

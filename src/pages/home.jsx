@@ -1,13 +1,15 @@
 import { NavBar } from '../components/navBar'
 import { HeroSlider } from '../components/heroSlider'
-import { FilmsLayout } from '../components/filmsLayout'
+import { Layout } from '../components/layout'
 
-export const Home = () => {
+export const Home = () => {    
+
   return (
     <>
       <NavBar />
       <HeroSlider />
-      <FilmsLayout />
+      <Layout />
+      
     </>
   );
 }

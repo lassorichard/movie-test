@@ -1,48 +1,56 @@
 [
     {   
         "id": 1,
+        "filter": "New releases",
         "title": "The End",
         "pictureUrl": "https://cuevana3.io/wp-content/uploads/2018/09/the-end-linferno-fuori-6104-poster-200x300.jpg",
         "description": "Claudio Verona es un joven y cínico hombre de negocios. Un día se queda encerrado en el ascensor de su oficina en Roma antes de una importante reunión con un cliente. Pronto este obstáculo molesto se convertirá en una pesadilla. Al otro lado de la jaula de metal, un virus mortal ha comenzado a infectar y a transformar a la gente en zombis extremadamente violentos y peligrosos. Claudio tiene que salir de su espacio claustrofóbico, pero parece que el ascensor es el lugar más seguro para estar en la ciudad."
     },
     {   
         "id": 2,
+        "filter": "Most popular",
         "title": "Let Us in",
         "pictureUrl": "https://cuevana3.io/wp-content/uploads/2021/07/let-us-in-45994-poster-200x300.jpg",
         "description": "Una niña de 12 años es excluída en un pequeño pueblo acusada de algo que nunca hizo. Cuando se da a conocer la desaparición de un grupo de adolescentes, ella y su mejor amiga de 9 años deciden investigar por su propia cuenta para descubrir qué ha sucedido."
     },
     {   
         "id": 3,
+        "filter": "Recomendations",
         "title": "Lockdown 2025",
         "pictureUrl": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/6pV1NclKckYvrv13IUKErK2UZvN.jpg",
         "description": "A la sombra de un virus altamente contagioso, una familia normal busca refugio en la seguridad de su propio hogar durante un CIERRE a nivel nacional en el que se declara la LEY MARCIAL. Sin ningún lugar adonde ir y el peligro se acerca desde el exterior. La familia se ve obligada a enfrentar el mal que los aterroriza desde adentro antes de que los consuma a todos."
     },
     {   
         "id": 4,
+        "filter": "Trends",
         "title": "Songbird",
         "pictureUrl": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/a1IyqmWVZIwVGGNyoh6H2x1nbWU.jpg",
         "description": "Durante un encierro por pandemia, Nico, un joven con una inmunidad poco común, debe superar la ley marcial, los vigilantes asesinos y una poderosa familia para reunirse con su amada, Sara."
     },
     {   
         "id": 5,
+        "filter": "Most popular",
         "title": "Gunpowder Milkshake",
         "pictureUrl": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/9BLIRT7AFDhJnZJdq9KCrEywhQk.jpg",
         "description": "Eva (Karen Gillan) era lo más importante en la turbulenta vida de su madre, Scarlet (Lena Headey). Pero sus enemigos obligaron a Scarlet a huir abandonándolo todo, incluida a su hija. Años más tarde, Eva se convierte en una asesina a sangre fría siguiendo los pasos de su madre. Después de perder el control en una misión, poniendo a una inocente niña de 8 años en peligro, Eva no tiene más remedio que enfrentarse sin escrúpulos a sus antiguos compinches. Y Scarlet y su banda no tienen más remedio que volver para intentar ayudarla."
     },
     {   
         "id": 6,
+        "filter": "Recomendations",
         "title": "Doppel",
         "pictureUrl": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/phM4Pgl67eunRx8upFQz7Tfwf0H.jpg",
         "description": "Los anidadores vacíos recientes se dispusieron a grabar imágenes para un video del 25 aniversario, cuando los trágicos eventos pasados comienzan a perseguirlos de una manera que no podrían haber imaginado."
     },
     {   
         "id": 7,
+        "filter": "Trends",
         "title": "El manual de la familia perfecta",
         "pictureUrl": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/1JMidKDf6imE1L1L2uR1NgMNOQg.jpg",
         "description": "Una pareja en Quebec se enfrenta a las dificultades y las expectativas de criar niños en una sociedad obsesionada con el éxito y la presencia en las redes sociales."
     },
     {   
         "id": 8,
+        "filter": "New releases",
         "title": "Red Privada: ¿Quién mató a Manuel Buendía?",
         "pictureUrl": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/dpzbFcolTgyxBmdSzYhZhtNLcyG.jpg",
         "description": "Para finales de la década de los años 70 y principios de los 80, el periodista Manuel Buendía escribía una columna conocida como “Red Privada”, misma que era difundida por más de 60 periódicos en todo el país y que era una de las más leídas y respetadas en México, por el nivel de información y cuestionamientos que contenía. Originario de Zitácuaro, Michoacan, la vocación de Buendía era la docencia, pero también fue asesor del titular de Nacional Financiera, director de relaciones publicas de la Conacyt y director de la facultad de Ciencias Políticas y Sociales de la UNAM. Sin embargo, su talento como columnista de tiempo completo lo convirtió en una referencia social de la sociedad mexicana, particularmente por ser el periodista más incomodo para el PRI, partido en el poder de México. En mayo de 1984, Buendía fue asesinado por un hombre, de corte militar, quien le disparó en cinco ocasiones, poco después de haber escrito sobre casos de corrupción de los más altos círculos de poder."

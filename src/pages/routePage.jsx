@@ -1,18 +1,15 @@
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Home } from './home';
 import { Categories } from './categories';
 import { MyFavorites } from './myFavorites';
 import { FilmIntern } from '../components/filmIntern';
 
 export const RoutePage = () => {
+
     return (
     <Router>
+        {/* Header Switch */}
         <Switch>
-
           <Route exact path="/">
             <Home />
           </Route>
@@ -23,9 +20,8 @@ export const RoutePage = () => {
             <MyFavorites />
           </Route>
           <Route  exact path="/film/:id">
-            <FilmIntern />
+            <FilmIntern  />
           </Route>
-
         </Switch>
     </Router>
     )

@@ -1,20 +1,27 @@
 import { NavBar } from '../components/navBar'
-import Movie from '../img/movie.png'
 import StarIcon from '../img/star.svg'
+import Films from "../data/films.json";
+import { useParams } from "react-router-dom"
+
+
 
 export const FilmIntern = () => {
+    const {id} = useParams()
+    const result = Films.filter( (film) => parseInt(film.id) === parseInt(id));
+
     return (
         <>
             <NavBar />
+
             <section className="intern">
                 <div className="container intern__container">
-                    <img src={Movie} alt="Interna" className="intern__img"/>
+                    <img src={result[0].pictureUrl} alt="Interna" className="intern__img"/>
                     <div className="intern__info">
                         <h3 className="intern__info__title">
-                            Titulo
+                            {result[0].title}
                         </h3>
                         <p className="intern__info__description">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt repudiandae delectus, sint ex numquam non ad quod iusto inventore nesciunt voluptates provident. Aut, nostrum quod! Enim asperiores soluta hic corrupti!
+                            {result[0].description}
                         </p>
                         <div className="intern__info__btn">
                             <button className="btn btn--tertiary">
